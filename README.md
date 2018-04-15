@@ -9,7 +9,7 @@
 A website created with HTML, Javascript, and CSS that outputs a running log after the user enters their run information.
 
 Input: Date, Location, Miles, Time, Weight
-Output: Date, Location, Miles, KM, Calories Burned, Pace per mile, Pace per km, Hit Weekly Goal or Miles left
+Output: Date, Location, Miles, KM, Calories Burned, Pace per mile, Pace per km
 
 ### Specs
 | Spec | Input | Output |
@@ -18,7 +18,7 @@ Output: Date, Location, Miles, KM, Calories Burned, Pace per mile, Pace per km, 
 | **The program outputs the data using the metric system** | Input: 3.1 miles | Output: 5 kilometers  |
 | **The program outputs the pace per mile/km** | Input: 6 miles, 1 hour | Output: 10 miles per hour |
 | **The program outputs the amount of calories burned based on data inputted ** | Input: 5 miles, 135 pounds | Output: 85.05 calories burned per mile |
-| **The program allows users to enter multiple entries and will continue to output a log of all submissions |
+| **The program allows users to enter multiple entries and will continue to output a log of all submissions** |
 
 ## Setup/Installation Requirements
 
