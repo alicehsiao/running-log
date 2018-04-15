@@ -37,10 +37,10 @@ $(document).ready(function() {
     $(".date").text(inputtedDate);
     $(".location").text(inputtedLocation);
     $(".miles").text(inputtedDistance);
-    $(".ppm").text(newRun.milesPace().toFixed(2) + "miles/hour");
-    $(".km").text(newRun.metricData().toFixed(2) + "km");
-    $(".ppkm").text(newRun.kilometersPace().toFixed(2) + "kilometers/hour");
-    $(".calories").text(newRun.caloriesBurned().toFixed(2) + "calories");
+    $(".ppm").text(newRun.milesPace().toFixed(2) + " mi/hr");
+    $(".km").text(newRun.metricData().toFixed(2));
+    $(".ppkm").text(newRun.kilometersPace().toFixed(2) + " km/hr");
+    $(".calories").text(newRun.caloriesBurned().toFixed(2) + " calories");
 
     $("#show-log").show();
   });
