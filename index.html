@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Running Log</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron text-center">
+        <h1>Running Log</h1>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <h2>Add a run:</h2>
+          <form id="new-run">
+            <div class="form-group">
+              <label for="date">Date of run:</label>
+              <input id="date" class="form-control" type="date">
+            </div>
+            <div class="form-group">
+              <label for="location">Location:</label>
+              <input type="text" class="form-control" id="location" placeholder="Location">
+            </div>
+            <span class="btn btn-primary" id="add-run">Another run</span>
+            <button type="submit" class="btn btn-primary">Add</button>
+          </form>
+        </div>
+        <div class="col-md-6">
+          <h2>Log:</h2>
+          <ul id="log">
+
+          </ul>
+          <div id="show-log">
+            <h2></h2>
+
+            <p>Date: <span class="date"></span></p>
+            <p>Location: <span class="location"></span></p>
+            <p>Runs:</p>
+            <ul id="runs">
+
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

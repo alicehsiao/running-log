@@ -1,0 +1,12 @@
+#show-log {
+  display: none;
+}
+
+.log {
+  cursor: pointer;
+  color: #0088cc;
+}
+
+.log:hover {
+  text-decoration: underLine;
+}
