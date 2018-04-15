@@ -1,6 +1,6 @@
 # Running Log
 
-#### A website that allows users to enter their run data for the week and outputs metric data with pace. 4/15/18
+#### A website that allows users to enter their run data for the week and outputs metric and pace data. 4/15/18
 
 #### By **Alice Hsiao**
 
@@ -14,7 +14,7 @@ A website created with HTML, Javascript, and CSS that outputs detailed run data 
 | **The program outputs the data points the user inputs** | Input: 4/15/2018 Seward Park| Output: 4/15/2018 Seward Park |
 | **The program outputs the data using the metric system** | Input: 3.1 miles | Output: 5 kilometers  |
 | **The program outputs the pace per mile/km** | Input: 6 miles, 1 hour | Output: 10 miles per hour |
-| **The program outputs the amount of calories burned based on data inputted ** | Input: 5 miles, 135 pounds | Output: 85.05 calories burned per mile |
+| **The program outputs the amount of calories burned based on data inputted** | Input: 5 miles, 135 pounds | Output: 425.25 calories burned |
 
 ## Setup/Installation Requirements
 
